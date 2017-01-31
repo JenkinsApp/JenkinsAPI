@@ -20,7 +20,6 @@ namespace JenkinsAPI.Controllers
         //{
         //    return new string[] { "value1", "value2" };
         //}
-
         // GET api/values
 
         JenkinsDotNet.JenkinsServer _jenkinsServer = new JenkinsDotNet.JenkinsServer("http://localhost:8080", "k.kumaraswamy", "3dc4cd8404264a76ebb317571b87b5a4");
